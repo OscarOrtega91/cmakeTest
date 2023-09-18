@@ -36,7 +36,7 @@ jobs:
 
 
     - name : install dependancies
-      run: sudo apt-get install libasound2-dev libfreetype6-dev libfontconfig1-dev xclip
+      run: sudo apt-get install build-essential libgtk-3-dev libasound2-dev libfreetype6-dev libfontconfig1-dev xclip freeglut3-dev curl
      
     - name : create build dir
       run: mkdir Builds
