@@ -23,8 +23,8 @@ void AudioPluginAudioProcessorEditor::paint (juce::Graphics& g)
 
     g.setColour (juce::Colours::white);
     g.setFont (15.0f);
-    g.drawFittedText ("Test Github Action", getLocalBounds(), juce::Justification::centred, 1);
-    g.setFont();
+    g.drawFittedText ("Test Github CI/CD Process", getLocalBounds(), juce::Justification::centred, 1);
+    
 }
 
 void AudioPluginAudioProcessorEditor::resized()
