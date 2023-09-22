@@ -33,6 +33,6 @@ void AudioPluginAudioProcessorEditor::resized()
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
     auto area = getLocalBounds()/2;
-    area.reduce(50, 50)
+    area.reduce(50, 50);
     enterButton.setBounds(area);
 }
